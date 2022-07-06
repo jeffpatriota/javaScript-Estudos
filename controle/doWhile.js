@@ -3,7 +3,10 @@ function getInteiroAleatorioEntre (min, max){
     return Math.floor(valor)
 }
 
-let opcao = -1
+let opcao /* Diferente da estrutura While, o Do/While 
+não é necessário atribuir um valor inicial 
+para a variável opcao, ou seja, Fazendo isso, 
+garante que a estrutura vá rodar pelo menos uma vez.*/
 
 do{
     opcao = getInteiroAleatorioEntre(-1, 10)
