@@ -5,5 +5,5 @@ const informeSuaNota = function (nota){
         console.log('Reprovado');
     }
 }
-informeSuaNota(8);
+informeSuaNota(10);
 informeSuaNota(6);
